@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/ListName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="List1"
+            android:textColor="@android:color/background_dark"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/ListCount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="5 Kişi"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20sp"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:id="@+id/ListDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="20.01.2018"
+            android:textColor="@android:color/background_dark"
+            android:textSize="14sp"
+            android:layout_marginStart="5dp"
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
